@@ -104,7 +104,7 @@ def ugaday():
     @bot.message_handler(content_types=["text"])
     def igra(message):
         global a
-        a = str(randint(1, 1))
+        a = str(randint(1, 1000))
         message.text = message.text.lower()
         if message.text == 'игра':
             bot.reply_to(
