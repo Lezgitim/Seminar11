@@ -6,7 +6,7 @@ from tkinter import *
 from tkinter import ttk
 
 bot = telebot.TeleBot(
-    "5790030707:AAErS3FPc9-b4CkM7QlHPFgXGDRbbb8NTss", parse_mode=None)
+    "", parse_mode=None)
 
 
 @bot.message_handler(commands=['help'])
