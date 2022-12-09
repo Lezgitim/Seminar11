@@ -7,7 +7,7 @@ from tkinter import ttk
 
 
 bot = telebot.TeleBot(
-    "5790030707:AAErS3FPc9-b4CkM7QlHPFgXGDRbbb8NTss", parse_mode=None)
+    "", parse_mode=None)
 
 with open('teh_poddergka.txt', 'r+', encoding='utf-8') as data:
     temp = data.readlines()
